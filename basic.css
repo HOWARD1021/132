@@ -1,0 +1,87 @@
+
+* {
+    /* 讓每個元素都有框線 */
+    /* box-sizing: border-box; */
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+}
+
+body {
+    /* 加上背景圖片 */
+    background-image:url('https://uploads-ssl.webflow.com/57516ebd5650b01552cd9f03/5d30079985ef6117dc5b983d_Paper02.jpg');
+}
+
+
+.bb{
+    padding: 25px 30px 20px;
+    
+    border-radius: 25px;
+    background-color: rgba(238, 161, 122, 0.69);
+    /* line-height: initial;   */
+    line-height: unset;
+    /* background-color: rgba(73, 168, 164, 0.7);  */
+}
+.cc{ 
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: rgba(250, 245, 232, 0.9);
+    font-size: 100;
+    /* 控制字體的粗細 */
+    font-weight: bolder;
+    /* 字體的透明程度 */
+    opacity: 0.65;
+    /* 減少字符間的空白 */
+    letter-spacing: 0px;
+
+   
+    
+}
+
+aa{ 
+    /* font-family: 'Barlow Semi Condensed', sans-serif; */
+    font-family: 'Noto Sans TC', sans-serif;
+    color: rgba(250, 245, 232, 0.9);
+    font-size: 300%;
+    font-weight: bolder;
+    
+    opacity: 0.65;
+
+    letter-spacing: 0px;
+    
+}
+
+.A{
+   
+    /* margin-top: -3px; */
+    /* margin-left: 0px; */
+    /* font-family: 'Barlow Semi Condensed', sans-serif; */
+    color: rgba(71, 105, 54, 0.8);
+    
+}
+
+.card_bg{
+    background-color: rgba(250, 245, 232, 0.85);
+    border-radius: 25px;
+    display: flex;
+    /* margin-right: 5px; */
+
+}
+
+.divider_10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top-color: rgba(75, 62, 52, 0.9);
+}
+
+
+
+.divcss5{ 
+    height:1px; 
+    width:100%; 
+    margin-bottom: 10px;
+    border-bottom:1px dashed rgba(75, 62, 52, 0.9);
+}
+
+.pp{
+    text-align:justify;
+}
+
